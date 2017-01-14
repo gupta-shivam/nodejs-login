@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %> page </p>
+
+    <form method="post" action= "/<%= title %>">
+    <ul>
+        <li>
+            username: <input type="text" name="username">
+        </li>
+        <li>
+            password:  <input type="text" name="password">
+        </li>
+        <li>
+             firstname: <input type="text" name="firstname">
+        </li>
+        <li>
+            lastname: <input type="text" name="lastname">
+        </li>
+
+    <input type="submit" value="submit">
+    </ul>
+  </body>
+</html>
